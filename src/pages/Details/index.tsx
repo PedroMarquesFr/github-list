@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
+import { useParams } from "react-router-dom";
 
 // import { Container } from './styles';
 
 const Details: React.FC = () => {
-  return <div />;
-}
+  let { name }: { name: string } = useParams();
+  return <div>{name}</div>;
+};
 
 export default Details;

@@ -1,9 +1,12 @@
-import React from 'react';
-import Home from './pages/Home';
-
+import React from "react";
+import Routes from "./routes";
 
 const App: React.FC = () => {
-  return <div><Home/></div>;
-}
+  return (
+    <div>
+      <Routes />
+    </div>
+  );
+};
 
 export default App;
